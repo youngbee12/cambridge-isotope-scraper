@@ -65,7 +65,7 @@ case $DEPLOY_TYPE in
         
         if [ -z "$GITHUB_REPO" ]; then
             echo "❌ 请提供 GitHub 仓库地址"
-            echo "用法: $0 github https://github.com/username/repo.git"
+            echo "用法: $0 github https://github.com/youngbee12/repo.git"
             exit 1
         fi
         
@@ -118,7 +118,7 @@ case $DEPLOY_TYPE in
         echo "🚀 使用示例:"
         echo "   $0 local"
         echo "   $0 docker"
-        echo "   $0 github https://github.com/username/cambridge-isotope-scraper.git"
+        echo "   $0 github https://github.com/youngbee12/cambridge-isotope-scraper.git"
         echo "   $0 cloud"
         exit 1
         ;;
