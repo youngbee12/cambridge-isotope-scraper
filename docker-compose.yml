@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  isotope-scraper:
+    build: .
+    container_name: cambridge-isotope-scraper
+    volumes:
+      # 挂载输出目录
+      - ./output:/app/output
+      # 挂载 URL 文件
+      - ./urls:/app/urls
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DISPLAY=:99
+    # 默认命令：运行帮助
+    command: ["python", "optimized_multithreaded_scraper.py", "--help"]
+    
+    # 如果需要运行特定任务，可以覆盖命令
+    # command: ["python", "optimized_multithreaded_scraper.py", "-t", "4", "--headless", "-u", "/app/urls/product_urls.json", "-o", "/app/output/results"]
+
+  # 性能测试服务
+  performance-test:
+    build: .
+    container_name: isotope-performance-test
+    volumes:
+      - ./output:/app/output
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["python", "high_thread_test.py"]
+    profiles:
+      - testing
+
+volumes:
+  output:
+  urls:
