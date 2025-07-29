@@ -42,7 +42,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/cambridge-isotope-scraper.git
+git clone https://github.com/youngbee12/cambridge-isotope-scraper.git
 cd cambridge-isotope-scraper
 
 # 创建虚拟环境（推荐）
@@ -212,8 +212,8 @@ cambridge-isotope-scraper/
 
 如有问题或建议，请通过以下方式联系：
 
-- 提交 [Issue](https://github.com/yourusername/cambridge-isotope-scraper/issues)
-- 发送邮件至：your.email@example.com
+- 提交 [Issue](https://github.com/youngbee12/cambridge-isotope-scraper/issues)
+- 发送邮件至：yangzhicheng@simm.ac.cn
 
 ---
 
