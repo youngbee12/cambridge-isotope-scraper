@@ -24,7 +24,7 @@ setup(
     description="高效的多线程爬虫工具，用于提取 Cambridge Isotope Laboratories 产品信息",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/cambridge-isotope-scraper",
+    url="https://github.com/youngbee12/cambridge-isotope-scraper",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -53,8 +53,8 @@ setup(
     },
     keywords="scraping, chemistry, isotopes, selenium, multithreading",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/cambridge-isotope-scraper/issues",
-        "Source": "https://github.com/yourusername/cambridge-isotope-scraper",
-        "Documentation": "https://github.com/yourusername/cambridge-isotope-scraper#readme",
+        "Bug Reports": "https://github.com/youngbee12/cambridge-isotope-scraper/issues",
+        "Source": "https://github.com/youngbee12/cambridge-isotope-scraper",
+        "Documentation": "https://github.com/youngbee12/cambridge-isotope-scraper#readme",
     },
 )
