@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://isotope.com/carbohydrates/d-glucose-1-13c-6-13c-6-6-d2-cdlm-4895",
+    "description": "D-Glucose with multiple isotope labels"
+  },
+  {
+    "url": "https://isotope.com/minimal-media-reagents/d-glucose-u-13c6-clm-1396-1",
+    "description": "Uniformly labeled D-Glucose"
+  },
+  {
+    "url": "https://isotope.com/dimethyl-sulfoxide-d6-dlm-10-10",
+    "description": "Deuterated DMSO solvent"
+  },
+  {
+    "url": "https://isotope.com/amino-acids/free-amino-acids/l-alanine-1-13c-clm-116-pk",
+    "description": "Carbon-13 labeled L-Alanine"
+  },
+  {
+    "url": "https://isotope.com/amino-acids/free-amino-acids/glycine-1-13c-clm-1017-pk",
+    "description": "Carbon-13 labeled Glycine"
+  }
+]
