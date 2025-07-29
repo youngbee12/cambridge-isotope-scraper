@@ -77,7 +77,7 @@
 #### 本地安装
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/cambridge-isotope-scraper.git
+git clone https://github.com/youngbee12/cambridge-isotope-scraper.git
 cd cambridge-isotope-scraper
 
 # 一键安装
