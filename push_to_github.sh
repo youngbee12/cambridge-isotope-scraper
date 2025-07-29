@@ -17,8 +17,8 @@ if [ -z "$GITHUB_REPO" ]; then
     echo "   $0 <仓库地址> [用户名]"
     echo ""
     echo "📝 示例:"
-    echo "   $0 https://github.com/username/cambridge-isotope-scraper.git"
-    echo "   $0 git@github.com:username/cambridge-isotope-scraper.git username"
+    echo "   $0 https://github.com/youngbee12/cambridge-isotope-scraper.git"
+    echo "   $0 git@github.com:youngbee12/cambridge-isotope-scraper.git username"
     echo ""
     exit 1
 fi
